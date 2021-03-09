@@ -27,6 +27,8 @@ h2 {
 
 .mainContainer {
   display: flex;
+  width: 100vw;
+  height: 100vh;
 }
 
 .leftGradient {
@@ -69,8 +71,19 @@ h2 {
 .linesDiv {
   position: absolute;
   display: flex;
-  margin-left: 23vw;
+  margin-left: 40vw;
   margin-top: 19vw;
+}
+
+#linesDiv1 {
+  width: 40vw;
+  left: 50%;
+}
+
+#linesDiv2 {
+  margin-left: 5vw;
+  margin-top: 20vw;
+
 }
 
 #DREAM {
