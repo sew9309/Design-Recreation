@@ -1,0 +1,59 @@
+/* font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Chivo', sans-serif; */
+
+* { margin: 0; padding: 0; }
+
+body {
+  background: url("Design Recreation Reference.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+}
+
+h1 {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+.mainContainer {
+  display: flex;
+}
+
+.leftGradient {
+  background-image: linear-gradient(RoyalBlue, IndianRed, OrangeRed, DeepPink, Fuchsia, white);
+  width: 14vw;
+  height: 69vh;
+  position: absolute;
+  left: 5%;
+  top: 13%;
+}
+
+.rightGradient {
+  background-image: linear-gradient(White, Plum, Orchid, DarkOrchid, Gold, DarkOrange, Crimson);
+  width: 15.5vw;
+  height: 85vh;
+  position: absolute;
+  left: 64%;
+  /* align-self: center; */
+  /* justify-content: flex-end; */
+}
+
+#LOVE {
+  font-family: 'Archivo Narrow', sans-serif;
+  color: transparent;
+  font-size: 13vw;
+  position: absolute;
+  left: 29%;
+  -webkit-text-stroke-width: 3.5px;
+  -webkit-text-stroke-color: black;
+}
+
+#DREAM {
+transform: rotate(90deg); /* https://css-tricks.com/snippets/css/text-rotation/ */
+color: RoyalBlue;
+opacity: 90%;
+font-size: 36vw;
+position: absolute;
+top: 84%;
+right: 20%;
+}
