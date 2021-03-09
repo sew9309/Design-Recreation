@@ -9,6 +9,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: contain;
+  overflow: hidden;
 }
 
 h1 {
