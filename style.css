@@ -66,7 +66,7 @@ h2 {
   -webkit-text-stroke-color: black;
 }
 
-#linesDiv {
+.linesDiv {
   position: absolute;
   display: flex;
   margin-left: 23vw;
@@ -165,4 +165,13 @@ margin-top: 13.5vw;
   display: inline;
   background-color: white;
   width: 15vw;
+}
+
+#Three {
+  margin-left: 68vw;
+  margin-top: 13vw;
+  display: inline;
+  background-color: white;
+  width: 3vw;
+  font-size: 2vw;
 }
