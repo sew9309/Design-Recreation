@@ -4,7 +4,7 @@ font-family: 'Chivo', sans-serif; */
 * { margin: 0; padding: 0; }
 
 body {
-  background: url("Design Recreation Reference.png") no-repeat center center fixed;
+  /* background: url("Design Recreation Reference.png") no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,6 +13,16 @@ body {
 
 h1 {
   font-family: 'Archivo Narrow', sans-serif;
+  display: inline;
+  margin:0;
+  padding:0;
+}
+
+h2 {
+  font-family: 'Chivo', sans-serif;
+  font-size: 1.5vw;
+  position: absolute;
+  display: inline;
 }
 
 .mainContainer {
@@ -28,24 +38,39 @@ h1 {
   top: 13%;
 }
 
+#leftGradient2 {
+  margin-left: 18vw;
+  top: 0%;
+  width: 15vw;
+}
+
 .rightGradient {
   background-image: linear-gradient(White, Plum, Orchid, DarkOrchid, Gold, DarkOrange, Crimson);
   width: 15.5vw;
   height: 85vh;
   position: absolute;
   left: 64%;
+  margin-top: 8vw;
   /* align-self: center; */
   /* justify-content: flex-end; */
 }
 
-#LOVE {
+.LOVE h1{
   font-family: 'Archivo Narrow', sans-serif;
   color: transparent;
   font-size: 13vw;
-  position: absolute;
-  left: 29%;
+  display: inline;
+  /* position: absolute; */
+  /* left: 29%; */
   -webkit-text-stroke-width: 3.5px;
   -webkit-text-stroke-color: black;
+}
+
+#linesDiv {
+  position: absolute;
+  display: flex;
+  margin-left: 23vw;
+  margin-top: 19vw;
 }
 
 #DREAM {
@@ -56,4 +81,88 @@ font-size: 36vw;
 position: absolute;
 top: 84%;
 right: 20%;
+}
+
+#purpleDREAM {
+  transform: rotate(90deg); /* https://css-tricks.com/snippets/css/text-rotation/ */
+  color: DarkOrchid;
+  opacity: 60%;
+  font-size: 36vw;
+  position: absolute;
+  top: 7%;
+  left: 35%;
+}
+
+#purpleDREAMDiv {
+  overflow: hidden;
+}
+
+.LO h1 {
+color: black;
+font-size: 13vw;
+}
+
+#VE h1 {
+text-shadow: -10px 13px Orchid;
+}
+
+#loveDiv {
+  display: inline-flex;
+  position: absolute;
+  left: 30%;
+  top: 60%
+  border-color: red;
+}
+
+#dreamsDiv {
+display: flex;
+  position: absolute;
+  /* left: 30%; */
+margin-left: 30vw;
+height:20vw;
+z-index: 1;
+}
+
+#DR h1 {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  -webkit-text-stroke-width: 0px;
+  height: 3vw;
+  width: 15vw;
+  margin-top: 26vw;
+  padding-bottom: 11vw;
+  font-size: 13vw;
+}
+
+#EAM_S {
+  margin-top: 24vw;
+}
+
+#SEX {
+margin-left: 64vw;
+z-index: 1;
+margin-top: 13.5vw;
+}
+
+#LSD {
+  position: absolute;
+  margin-right: 85vw;
+  font-size: 10vw;
+  transform: rotate(90deg);
+}
+
+.whiteBox {
+  position: absolute;
+  display: inline;
+  z-index: 1;
+}
+
+#asapRocky {
+  margin-left: 32vw;
+  margin-top: 24vw;
+  padding-left: 2vw;
+  display: inline;
+  background-color: white;
+  width: 15vw;
 }
